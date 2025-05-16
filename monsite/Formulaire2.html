@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire2</title>
+</head>
+<body>
+    <form method="post" action="cible_formulaire.php">
+        <fieldset>
+        <legend><strong>I-Etat civil</strong></legend>
+        <label for="nom">Nom </label><br />
+        <input type="text" name="nom" id="nom" tabindex="10" /><br />
+        <label for="prenom">Prénom </label><br />
+        <input type="text" name="prenom" id="prenom" tabindex="20" /><br />
+        <label for="matricule">Matricule </label><br />
+        <input type="number" name="matricule" id="matricule" tabindex="30" /><br />
+        <label for="text">Date de naissance </label><br />
+        <input type="text" name="date de naissance" id="date de naissance" tabindex="10" /><br />
+        <label for="sexe">Sexe </label><br />
+        <input type="text" name="sexe" id="sexe" tabindex="20" /><br />
+        <label for="âge"> Âge </label><br />
+        <input type="number" name="âge" id="âge" tabindex="30" /><br />
+        </fieldset> 
+        <fieldset>
+        <legend><strong>II-Mes Diplômes</strong></legend>
+        <label><input type="checkbox" name="diplôme" value="cep"> CEP</label><br>
+        <label><input type="checkbox" name="diplôme" value="bepc"> BEPC</label><br>
+        <label><input type="checkbox" name="diplôme" value="bac"> BAC</label><br>
+        </fieldset> 
+        <fieldset>
+        <legend><strong>III-Expertise</strong></legend>
+        <input type="radio" name="expertise" value="ig" id="ig" tabindex="40" /> <label for="ig">IG
+        </label><br />
+        <input type="radio" name="expertise" value="bavardage" id="bavardage" tabindex="50" /> <label for="bavardage">bavardage
+        </label><br />
+        </fieldset>
+        <fieldset>
+        <legend><strong>Boutons</strong></legend>
+        <!-- Bouton envoyer -->
+         <input type="submit" value="Envoyer">
+         <input type="submit" value="Effacer">
+         <input type="submit" value="Quitter">
+        </fieldset>
+
+
+</body>
+</html>
